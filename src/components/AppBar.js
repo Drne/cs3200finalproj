@@ -12,9 +12,9 @@ export default function NavBar() {
                 value={location.pathname}
                 aria-label="nav tabs example"
             >
-                <Tab label="Users" component={Link} to="/users"/>
-                <Tab label="Recipes" component={Link} to="/recipes"/>}/>
-                <Tab label="Ingredients" component={Link} to="/ingredients"/>}/>
+                <Tab label="Users" component={Link} to="/users" value={"/users"}/>
+                <Tab label="Recipes" component={Link} to="/recipes" value={"/recipes"} />
+                <Tab label="Ingredients" component={Link} to="/ingredients" value={"/ingredients"}/>
             </Tabs>
             <Divider orientation="vertical" flexItem />
         </>
